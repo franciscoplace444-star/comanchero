@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="goldGrad" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#f8e49b" />
+      <stop offset="50%" stop-color="#d4af37" />
+      <stop offset="100%" stop-color="#8c6d17" />
+    </radialGradient>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#241a12" />
+      <stop offset="100%" stop-color="#0a0806" />
+    </radialGradient>
+    <linearGradient id="redAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c92a2a" />
+      <stop offset="100%" stop-color="#721c24" />
+    </linearGradient>
+  </defs>
+  <!-- Background badge -->
+  <rect width="512" height="512" rx="100" fill="url(#bgGrad)" />
+  <!-- Outer ornate border ring -->
+  <circle cx="256" cy="256" r="230" fill="none" stroke="url(#goldGrad)" stroke-width="4" stroke-dasharray="8 6" opacity="0.8" />
+  <circle cx="256" cy="256" r="215" fill="none" stroke="url(#goldGrad)" stroke-width="2" />
+  
+  <!-- Subtle red decorative ring -->
+  <circle cx="256" cy="256" r="200" fill="none" stroke="url(#redAccent)" stroke-width="1.5" opacity="0.7" />
+
+  <!-- Western Lone Star at top -->
+  <polygon points="256,76 264,96 286,96 268,109 275,130 256,117 237,130 244,109 226,96 248,96" fill="url(#goldGrad)" />
+
+  <!-- Western Horns & Steer Crown Motif -->
+  <path d="M 120 180 C 150 140, 210 130, 256 165 C 302 130, 362 140, 392 180 C 375 185, 340 182, 310 195 C 280 208, 268 225, 256 245 C 244 225, 232 208, 202 195 C 172 182, 137 185, 120 180 Z" fill="url(#goldGrad)" />
+  
+  <!-- Skull Shield Center -->
+  <path d="M 220 220 L 292 220 L 285 295 C 285 330, 256 365, 256 365 C 256 365, 227 330, 227 295 Z" fill="#17120c" stroke="url(#goldGrad)" stroke-width="3" />
+  
+  <!-- "C" Monogram inside shield -->
+  <path d="M 268 255 C 250 255, 240 266, 240 285 C 240 304, 250 315, 268 315 C 276 315, 282 312, 285 308 L 285 320 C 280 324, 273 327, 265 327 C 240 327, 226 309, 226 285 C 226 261, 240 243, 265 243 C 273 243, 280 246, 285 250 L 282 262 C 278 258, 273 255, 268 255 Z" fill="url(#goldGrad)" />
+
+  <!-- Lower Stars -->
+  <polygon points="170,390 174,400 185,400 176,407 179,417 170,411 161,417 164,407 155,400 166,400" fill="url(#goldGrad)" opacity="0.8" />
+  <polygon points="342,390 346,400 357,400 348,407 351,417 342,411 333,417 336,407 327,400 338,400" fill="url(#goldGrad)" opacity="0.8" />
+
+  <!-- Typography: COMANCHERO arc-like straight letters -->
+  <text x="256" y="440" font-family="'Cinzel', serif, Georgia" font-size="28" font-weight="800" letter-spacing="8" fill="url(#goldGrad)" text-anchor="middle">COMANCHERO</text>
+  <text x="256" y="468" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" letter-spacing="5" fill="#a89f91" text-anchor="middle">MAPUTO • MOÇAMBIQUE</text>
+</svg>

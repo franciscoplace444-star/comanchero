@@ -1,0 +1,6 @@
+{
+  "name": "COMANCHERO - Menu Digital",
+  "description": "Menu digital interativo e gestão de pedidos para o restaurante COMANCHERO em Maputo Shopping Center, Moçambique.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

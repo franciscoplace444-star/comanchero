@@ -1,0 +1,20 @@
+{
+  "id": "/",
+  "name": "COMANCHERO - Menu Digital",
+  "short_name": "COMANCHERO",
+  "description": "Menu digital e pedidos interativos para o restaurante COMANCHERO em Maputo Shopping Center.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0e0b08",
+  "theme_color": "#120e0a",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
